@@ -125,6 +125,7 @@ func (c *Turbosms) Send(message Message) (err error) {
 	}
 	////// Request ///////////
 	replysms, err, statusreplysms := Request(clientConfig, urlSoap, []byte(datasms))
+	fmt.Println(replysms)
 	if err != nil {
 		return err
 
