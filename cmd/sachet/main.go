@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/messagebird/sachet"
+	"github.com/dzirg44/sachet"
 	"github.com/prometheus/alertmanager/template"
 	"github.com/prometheus/client_golang/prometheus"
 )
